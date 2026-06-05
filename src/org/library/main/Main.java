@@ -159,12 +159,11 @@ public class Main {
             scanner.nextLine();
 
             switch (choice) {
-
-                case 1:
+                case 1: {
 
                     service.displayBooks();
                     break;
-
+                }
                 case 2:
 
                     System.out.print(
@@ -293,7 +292,5 @@ public class Main {
             }
 
         } while (choice != 8);
-
-        scanner.close();
     }
 }
